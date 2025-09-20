@@ -1,0 +1,50 @@
+moder / Convert data
+20 -21
+reconr / lakukan instruksi untuk tampang lintang
+-21 -22
+'ENDF-B/VIII.1 PENDF untuk 008-O-16'/
+825 3/
+0.01 0.0/
+'ENDF-B/VIII.1: 008-O-16'/
+'Diproses menggunakan NJOY2016.64'/
+'Digunakan untuk tugas kuliah ARN DTNTF FT UGM' /
+0/
+broadr / lakukan Doppler broadening ke 300 K
+-21 -22 -23
+825 1 0 0 0./
+0.01 /
+300
+0/
+heatr / Tambahkan kerma pemanasan dan energi kerusakan
+-21 -23 -24/
+825 7 0 0 0 2/
+302 303 304 318 402 443 444/
+gaspr / Tambahkan produksi gas
+-21 -24 -25
+thermr / Tambahkan data hamburan termal S(alfa, beta)
+0 -25 -26
+0 825 12 1 1 0 1 1 221 1/
+300
+0.01 4.0
+moder
+-26 36
+purr / Process Unresolved Resonance Range
+-21 -26 -27
+825 1 5 20 64/
+300
+1.E+10 1.E+04 1.E+03 1.E+02 1.E+01
+0/
+acer / Siapkan file ACE
+-21 -27 0 28 29
+1 0 1 .03 /
+'0825 dari ENDF-B/VII.1, NJOY2016.64'/
+825 300
+1 1/
+/
+acer / Periksa file ACE
+0 28 40 38 39
+7 1 1 -1/
+/
+viewr
+40 48/
+stop
