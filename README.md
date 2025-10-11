@@ -29,10 +29,9 @@ Data dari pustaka ENDF yang tersedia dari website IAEA NDS :atom: ([https://www-
 ## Usage
 File tree ane:
 <div align="left">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a>
     <img src="images/yeah.png" alt="Logo" style="width: auto;">
   </a>
-  <h3 align="center"></h3>
 </div>
 
 Sebentar, ye gan. Lagi mager nulis.
