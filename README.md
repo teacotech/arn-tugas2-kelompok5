@@ -30,7 +30,7 @@ Data dari pustaka ENDF yang tersedia dari website IAEA NDS :atom: ([https://www-
 File tree ane:
 <div align="left">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/yeah.png" alt="Logo" width="500">
+    <img src="images/yeah.png" alt="Logo" style="width: auto;">
   </a>
   <h3 align="center"></h3>
 </div>
